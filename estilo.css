@@ -1,0 +1,64 @@
+Body {
+    background:rgb(90, 86, 86);
+    font: normal 15pt arial;
+    text-align: center;
+}
+
+#menu ul {
+    text-align: justify;
+    list-style: none;
+    padding: 10px; 
+    position: absolute;
+    margin-top: -50px;
+}
+
+#menu ul li {
+    display: inline-block;
+     margin-right: 50px;
+     color: goldenrod;
+     margin-top: 5px;
+ }
+ 
+ #menu ul li:hover {
+    left: 0px;
+  }
+
+#menu ul ul {
+    display: none; 
+    margin: 0px;
+    margin-left: -10px;
+}
+
+#menu ul ul li a {
+    display: block; 
+}
+
+ #menu ul li:hover ul {
+     display: block;  
+     background: rgb(63, 62, 59);  
+ }
+
+#menu ul li a {
+    text-decoration: none;
+    color: goldenrod; 
+    display: block; 
+}
+
+section {
+    background:white;
+    padding: 80px 15px 200px 5px;
+    margin-left: -10px;
+    margin-top: 50px;
+    width: 100%;
+    color: black;
+}
+
+div#contato {
+    text-align: left;
+    padding-left: 30px;
+}
+
+section.img {
+    width: 30%;
+}
+
